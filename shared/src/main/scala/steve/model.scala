@@ -8,8 +8,8 @@ case class Build(
 object Build {
 
   enum Base {
-    case Empty,
-    case ImageHash(sha: Hash)
+    case Empty
+    case ImageHash(hash: Hash)
   }
 }
 
